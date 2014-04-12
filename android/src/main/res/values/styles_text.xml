@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="stage_title" parent="invitine_TextView">
+        <item name="android:textSize">@dimen/text_l</item>
+        <item name="android:textColor">@color/font_white</item>
+        <item name="font">Roboto-Medium.ttf</item>
+    </style>
+
+    <style name="stage_text" parent="invitine_TextView">
+        <item name="android:textSize">@dimen/text_s</item>
+        <item name="android:textColor">@color/font_white</item>
+        <item name="font">Roboto-Regular.ttf</item>
+    </style>
+
+</resources>

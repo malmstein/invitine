@@ -14,7 +14,6 @@
         <item name="actionModeSplitBackground">@drawable/cab_background_bottom_invitine</item>
         <item name="actionModeCloseButtonStyle">@style/ActionButton.CloseMode.Invitine</item>
 
-
     </style>
 
     <style name="ActionBar.Solid.Invitine" parent="@style/Widget.AppCompat.ActionBar.Solid">
@@ -61,46 +60,51 @@
         <item name="dropDownListViewStyle">@style/DropDownListView.Invitine</item>
     </style>
 
-  <style name="EditTextinvitine" parent="android:Widget.EditText">
-	  <item name="android:background">@drawable/invitine_edit_text_holo_dark</item>
-	  <item name="android:textColor">#ffffff</item>
-  </style>
+    <style name="invitine_TextView" parent="android:Widget.TextView">
+        <item name="android:ellipsize">end</item>
+    </style>
 
-  <style name="Buttoninvitine" parent="android:Widget.Button">
-	  <item name="android:background">@drawable/invitine_btn_default_holo_dark</item>
-	  <item name="android:minHeight">48dip</item>
-	  <item name="android:minWidth">64dip</item>
-	  <item name="android:textColor">#ffffff</item>
-  </style>
+    <style name="EditTextinvitine" parent="android:Widget.EditText">
+        <item name="android:background">@drawable/invitine_edit_text_holo_dark</item>
+        <item name="android:textColor">#ffffff</item>
+    </style>
 
-  <style name="ImageButtoninvitine" parent="android:Widget.ImageButton">
-	  <item name="android:background">@drawable/invitine_btn_default_holo_dark</item>
-  </style>
+    <style name="Buttoninvitine" parent="android:Widget.Button">
+        <item name="android:background">@drawable/invitine_btn_default_holo_dark</item>
+        <item name="android:minHeight">48dip</item>
+        <item name="android:minWidth">64dip</item>
+        <item name="android:textColor">#ffffff</item>
+    </style>
 
-  <style name="Spinnerinvitine" parent="android:Widget.Spinner">
-      <item name="android:background">@drawable/invitine_spinner_background_holo_dark</item>
-      <item name="android:dropDownSelector">@drawable/invitine_list_selector_holo_dark</item>
-  </style>
+    <style name="ImageButtoninvitine" parent="android:Widget.ImageButton">
+        <item name="android:background">@drawable/invitine_btn_default_holo_dark</item>
+    </style>
 
-  <style name="SpinnerDropDownIteminvitine" parent="android:Widget.DropDownItem.Spinner">
-      <item name="android:checkMark">@drawable/invitine_btn_radio_holo_dark</item>
-  </style>
-  <style name="Toggleinvitine" parent="android:Widget.Button.Toggle">
-      <item name="android:background">@drawable/invitine_btn_toggle_holo_dark</item>
-      <item name="android:minHeight">48dip</item>
-	  <item name="android:textColor">#ffffff</item>
-  </style>
+    <style name="Spinnerinvitine" parent="android:Widget.Spinner">
+        <item name="android:background">@drawable/invitine_spinner_background_holo_dark</item>
+        <item name="android:dropDownSelector">@drawable/invitine_list_selector_holo_dark</item>
+    </style>
 
-  <style name="ListViewinvitine" parent="android:Widget.ListView">
-      <item name="android:listSelector">@drawable/invitine_list_selector_holo_dark</item>
-  </style>
+    <style name="SpinnerDropDownIteminvitine" parent="android:Widget.DropDownItem.Spinner">
+        <item name="android:checkMark">@drawable/invitine_btn_radio_holo_dark</item>
+    </style>
 
-  <style name="ListViewinvitine.White" parent="android:Widget.ListView.White">
-      <item name="android:listSelector">@drawable/invitine_list_selector_holo_dark</item>
-  </style>
+    <style name="Toggleinvitine" parent="android:Widget.Button.Toggle">
+        <item name="android:background">@drawable/invitine_btn_toggle_holo_dark</item>
+        <item name="android:minHeight">48dip</item>
+        <item name="android:textColor">#ffffff</item>
+    </style>
 
-  <style name="SpinnerIteminvitine" parent="android:TextAppearance.Widget.TextView.SpinnerItem">
-      <item name="android:textColor">#ffffff</item>
-  </style>
+    <style name="ListViewinvitine" parent="android:Widget.ListView">
+        <item name="android:listSelector">@drawable/invitine_list_selector_holo_dark</item>
+    </style>
+
+    <style name="ListViewinvitine.White" parent="android:Widget.ListView.White">
+        <item name="android:listSelector">@drawable/invitine_list_selector_holo_dark</item>
+    </style>
+
+    <style name="SpinnerIteminvitine" parent="android:TextAppearance.Widget.TextView.SpinnerItem">
+        <item name="android:textColor">#ffffff</item>
+    </style>
 
 </resources>
