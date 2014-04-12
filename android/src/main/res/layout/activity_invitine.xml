@@ -4,6 +4,7 @@
     xmlns:sothree="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/sliding_panel_bg"
     tools:context=".Invitine">
 
     <com.malmstein.invitine.android.views.SlidingUpPanelLayout
@@ -15,7 +16,6 @@
         sothree:shadowHeight="4dp"
         sothree:paralaxOffset="100dp"
         sothree:dragView="@+id/stage_root">
-
 
         <android.support.v4.view.ViewPager
             xmlns:android="http://schemas.android.com/apk/res/android"

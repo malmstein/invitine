@@ -17,7 +17,7 @@ import com.malmstein.invitine.android.stages.ZoomOutPageTransformer;
 import com.malmstein.invitine.android.views.SlidingUpPanelLayout;
 import com.nineoldandroids.view.animation.AnimatorProxy;
 
-public class InvitationActivity extends FragmentActivity{
+public class InvitationActivity extends FragmentActivity {
 
     public static final String SAVED_STATE_ACTION_BAR_HIDDEN = "saved_state_action_bar_hidden";
 
@@ -60,7 +60,7 @@ public class InvitationActivity extends FragmentActivity{
 
     private void restoreActionBar(Bundle savedInstanceState) {
         boolean actionBarHidden = savedInstanceState != null ?
-                savedInstanceState.getBoolean(SAVED_STATE_ACTION_BAR_HIDDEN, false): false;
+                savedInstanceState.getBoolean(SAVED_STATE_ACTION_BAR_HIDDEN, false) : false;
         if (actionBarHidden) {
             getActionBar().hide();
         }
@@ -77,7 +77,7 @@ public class InvitationActivity extends FragmentActivity{
         int actionBarHeight = 0;
         TypedValue tv = new TypedValue();
         if (getTheme().resolveAttribute(android.R.attr.actionBarSize, tv, true)) {
-            actionBarHeight = TypedValue.complexToDimensionPixelSize(tv.data,getResources().getDisplayMetrics());
+            actionBarHeight = TypedValue.complexToDimensionPixelSize(tv.data, getResources().getDisplayMetrics());
         }
         ViewGroup content = ((ViewGroup) findViewById(android.R.id.content).getParent());
         int children = content.getChildCount();

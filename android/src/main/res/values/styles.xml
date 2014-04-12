@@ -5,6 +5,7 @@
 
     <style name="Theme.Invitine" parent="@style/Theme.AppCompat">
 
+        <item name="android:windowBackground">@color/sliding_panel_bg</item>
         <item name="android:windowActionBarOverlay">true</item>
 
         <item name="actionBarItemBackground">@drawable/selectable_background_invitine</item>
@@ -12,7 +13,7 @@
         <item name="dropDownListViewStyle">@style/DropDownListView.Invitine</item>
         <item name="actionBarTabStyle">@style/ActionBarTabStyle.Invitine</item>
         <item name="actionDropDownStyle">@style/DropDownNav.Invitine</item>
-        <item name="actionBarStyle">@style/ActionBar.Solid.Invitine</item>
+        <item name="actionBarStyle">@style/ActionBar.Transparent.Invitine</item>
         <item name="actionModeBackground">@drawable/cab_background_top_invitine</item>
         <item name="actionModeSplitBackground">@drawable/cab_background_bottom_invitine</item>
         <item name="actionModeCloseButtonStyle">@style/ActionButton.CloseMode.Invitine</item>
@@ -27,7 +28,7 @@
     </style>
 
     <style name="ActionBar.Transparent.Invitine" parent="@style/Widget.AppCompat.ActionBar">
-        <item name="background">@drawable/ab_transparent_invitine</item>
+        <item name="background">@android:color/transparent</item>
         <item name="progressBarStyle">@style/ProgressBar.Invitine</item>
     </style>
 
