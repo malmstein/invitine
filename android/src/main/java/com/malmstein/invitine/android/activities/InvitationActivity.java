@@ -1,8 +1,8 @@
 package com.malmstein.invitine.android.activities;
 
-import android.app.Activity;
 import android.os.Build;
 import android.os.Bundle;
+import android.support.v4.app.FragmentActivity;
 import android.support.v4.view.PagerAdapter;
 import android.support.v4.view.ViewPager;
 import android.util.Log;
@@ -11,14 +11,16 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import com.malmstein.invitine.android.R;
+import com.malmstein.invitine.android.stages.DepthPageTransformer;
+import com.malmstein.invitine.android.stages.PictureSlideFragmentAdapter;
+import com.malmstein.invitine.android.stages.ZoomOutPageTransformer;
 import com.malmstein.invitine.android.views.SlidingUpPanelLayout;
 import com.nineoldandroids.view.animation.AnimatorProxy;
 
-public class InvitationActivity extends Activity{
+public class InvitationActivity extends FragmentActivity{
 
     public static final String SAVED_STATE_ACTION_BAR_HIDDEN = "saved_state_action_bar_hidden";
 
-    private static final int NUM_PAGES = 5;
     private ViewPager mPager;
     private PagerAdapter mPagerAdapter;
 
@@ -52,6 +54,8 @@ public class InvitationActivity extends Activity{
         });
 
         restoreActionBar(savedInstanceState);
+
+        setPictureSlider();
     }
 
     private void restoreActionBar(Bundle savedInstanceState) {
@@ -60,6 +64,13 @@ public class InvitationActivity extends Activity{
         if (actionBarHidden) {
             getActionBar().hide();
         }
+    }
+
+    private void setPictureSlider() {
+        mPager = (ViewPager) findViewById(R.id.activity_invitine_pager);
+        mPagerAdapter = new PictureSlideFragmentAdapter(getSupportFragmentManager());
+        mPager.setAdapter(mPagerAdapter);
+        mPager.setPageTransformer(true, new ZoomOutPageTransformer());
     }
 
     public void setActionBarTranslation(float y) {
