@@ -1,4 +1,4 @@
-package com.malmstein.invitine.android.fragments;
+package com.malmstein.invitine.android.legacy;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;

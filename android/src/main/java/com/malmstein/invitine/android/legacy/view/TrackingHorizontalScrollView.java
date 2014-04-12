@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.malmstein.invitine.android.views;
+package com.malmstein.invitine.android.legacy.view;
 
 import android.content.Context;
 import android.util.AttributeSet;

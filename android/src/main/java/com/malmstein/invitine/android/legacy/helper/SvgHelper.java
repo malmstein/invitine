@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.malmstein.invitine.android.helper;
+package com.malmstein.invitine.android.legacy.helper;
 
 import android.content.Context;
 import android.graphics.*;

@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="400dp">
 
-    <com.malmstein.invitine.android.views.StateView
+    <com.malmstein.invitine.android.legacy.view.StateView
         android:id="@+id/state"
 
         android:layout_width="match_parent"
@@ -22,7 +22,7 @@
         r:strokeWidth="2.0"
         r:strokeColor="#ffffffff" />
 
-    <com.malmstein.invitine.android.views.TrackingHorizontalScrollView
+    <com.malmstein.invitine.android.legacy.view.TrackingHorizontalScrollView
         android:id="@+id/scroller"
 
         android:layout_width="match_parent"
@@ -36,6 +36,6 @@
 
             android:orientation="horizontal" />
 
-    </com.malmstein.invitine.android.views.TrackingHorizontalScrollView>
+    </com.malmstein.invitine.android.legacy.view.TrackingHorizontalScrollView>
 
 </FrameLayout>

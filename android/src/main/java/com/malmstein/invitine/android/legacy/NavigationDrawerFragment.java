@@ -1,4 +1,4 @@
-package com.malmstein.invitine.android.fragments;
+package com.malmstein.invitine.android.legacy;
 
 import android.support.v7.app.ActionBarActivity;
 import android.app.Activity;

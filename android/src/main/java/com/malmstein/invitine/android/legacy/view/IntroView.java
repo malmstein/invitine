@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.malmstein.invitine.android.views;
+package com.malmstein.invitine.android.legacy.view;
 
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
@@ -28,7 +28,7 @@ import android.view.View;
 import android.view.animation.LinearInterpolator;
 
 import com.malmstein.invitine.android.R;
-import com.malmstein.invitine.android.helper.SvgHelper;
+import com.malmstein.invitine.android.legacy.helper.SvgHelper;
 
 import java.util.ArrayList;
 import java.util.List;

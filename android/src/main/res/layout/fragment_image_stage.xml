@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     tools:context="com.malmstein.invitine.android.activities.Intro$InvitationFragment">
 
-    <com.malmstein.invitine.android.views.IntroView
+    <com.malmstein.invitine.android.legacy.view.IntroView
         android:id="@+id/intro"
 
         android:layout_width="match_parent"
@@ -24,7 +24,7 @@
         r:strokeWidth="2.0"
         r:strokeColor="#ffffffff" />
 
-    <com.malmstein.invitine.android.views.TrackingScrollView
+    <com.malmstein.invitine.android.legacy.view.TrackingScrollView
         android:id="@+id/scroller"
 
         android:layout_width="match_parent"
@@ -38,7 +38,7 @@
 
             android:orientation="vertical" />
 
-    </com.malmstein.invitine.android.views.TrackingScrollView>
+    </com.malmstein.invitine.android.legacy.view.TrackingScrollView>
 
     <LinearLayout
         android:gravity="bottom"

@@ -1,4 +1,4 @@
-package com.malmstein.invitine.android.fragments;
+package com.malmstein.invitine.android.legacy;
 
 import android.content.res.Resources;
 import android.graphics.Bitmap;
@@ -18,10 +18,10 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 
 import com.malmstein.invitine.android.R;
-import com.malmstein.invitine.android.views.IntroView;
-import com.malmstein.invitine.android.views.StateView;
-import com.malmstein.invitine.android.views.TrackingHorizontalScrollView;
-import com.malmstein.invitine.android.views.TrackingScrollView;
+import com.malmstein.invitine.android.legacy.view.IntroView;
+import com.malmstein.invitine.android.legacy.view.StateView;
+import com.malmstein.invitine.android.legacy.view.TrackingHorizontalScrollView;
+import com.malmstein.invitine.android.legacy.view.TrackingScrollView;
 
 import java.util.ArrayList;
 import java.util.List;
