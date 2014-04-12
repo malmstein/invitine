@@ -13,6 +13,8 @@ import com.malmstein.invitine.android.views.SlidingUpPanelLayout;
 
 public class Invitation extends Activity{
 
+    public static final String SAVED_STATE_ACTION_BAR_HIDDEN = "saved_state_action_bar_hidden";
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -42,6 +44,15 @@ public class Invitation extends Activity{
             }
         });
 
+        restoreActionBar(savedInstanceState);
+    }
+
+    private void restoreActionBar(Bundle savedInstanceState) {
+        boolean actionBarHidden = savedInstanceState != null ?
+                savedInstanceState.getBoolean(SAVED_STATE_ACTION_BAR_HIDDEN, false): false;
+        if (actionBarHidden) {
+            getActionBar().hide();
+        }
     }
 
     public void setActionBarTranslation(float y) {
@@ -67,5 +78,11 @@ public class Invitation extends Activity{
                 }
             }
         }
+    }
+
+    @Override
+    protected void onSaveInstanceState(Bundle outState) {
+        super.onSaveInstanceState(outState);
+        outState.putBoolean(SAVED_STATE_ACTION_BAR_HIDDEN, !getActionBar().isShowing());
     }
 }
