@@ -76,7 +76,7 @@ public class InvitationFragment extends Fragment {
 
         LinearLayout wrapper = new LinearLayout(getActivity()); // for example
 
-        View rootView = inflater.inflate(R.layout.fragment_invitation, wrapper, true);
+        View rootView = inflater.inflate(R.layout.fragment_image_stage, wrapper, true);
 
         layoutContainer = (LinearLayout) rootView.findViewById(R.id.container);
 

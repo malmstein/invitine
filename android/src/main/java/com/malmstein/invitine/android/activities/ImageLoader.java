@@ -75,7 +75,7 @@ public class ImageLoader extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.fragment_invitation);
+        setContentView(R.layout.fragment_image_stage);
 
         mActionBarDrawable = getResources().getDrawable(R.drawable.ab_solid);
         mActionBarDrawable.setAlpha(0);

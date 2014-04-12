@@ -16,12 +16,12 @@
         sothree:paralaxOffset="100dp"
         sothree:dragView="@+id/stage_root">
 
-        <TextView
+
+        <android.support.v4.view.ViewPager
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/activity_invitine_pager"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:gravity="center"
-            android:text="Main Content"
-            android:textSize="16sp" />
+            android:layout_height="match_parent" />
 
         <LinearLayout
             android:id="@+id/stage_root"
