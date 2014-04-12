@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- File created by the Android Action Bar Style Generator
+
+     Copyright (C) 2011 The Android Open Source Project
+     Copyright (C) 2012 readyState Software Ltd
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+  
+          http://www.apache.org/licenses/LICENSE-2.0
+  
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources>
+
+    <style name="Theme.Invitine" parent="@style/Theme.AppCompat">
+        <item name="android:actionBarItemBackground">@drawable/selectable_background_invitine</item>
+        <item name="android:popupMenuStyle">@style/PopupMenu.Invitine</item>
+        <item name="android:dropDownListViewStyle">@style/DropDownListView.Invitine</item>
+        <item name="android:actionBarTabStyle">@style/ActionBarTabStyle.Invitine</item>
+        <item name="android:actionDropDownStyle">@style/DropDownNav.Invitine</item>
+        <item name="android:actionBarStyle">@style/ActionBar.Solid.Invitine</item>
+        <item name="android:actionModeBackground">@drawable/cab_background_top_invitine</item>
+        <item name="android:actionModeSplitBackground">@drawable/cab_background_bottom_invitine</item>
+        <item name="android:actionModeCloseButtonStyle">@style/ActionButton.CloseMode.Invitine</item>
+
+        <item name="android:editTextBackground">@drawable/invitine_edit_text_holo_dark</item>
+
+        <item name="android:textColorHighlight">#99cc0000</item>
+        <item name="android:textSelectHandleLeft">@drawable/invitine_text_select_handle_left</item>
+        <item name="android:textSelectHandleRight">@drawable/invitine_text_select_handle_right</item>
+        <item name="android:textSelectHandle">@drawable/invitine_text_select_handle_middle</item>
+
+        <item name="android:buttonStyle">@style/Buttoninvitine</item>
+        <item name="android:imageButtonStyle">@style/ImageButtoninvitine</item>
+        <item name="android:dropDownSpinnerStyle">@style/Spinnerinvitine</item>
+        <item name="android:buttonStyleToggle">@style/Toggleinvitine</item>
+
+        <item name="android:listChoiceBackgroundIndicator">
+            @drawable/invitine_list_selector_holo_dark
+        </item>
+
+        <item name="android:activatedBackgroundIndicator">
+            @drawable/invitine_activated_background_holo_dark
+        </item>
+
+        <item name="android:fastScrollThumbDrawable">@drawable/invitine_fastscroll_thumb_holo</item>
+    </style>
+
+    <style name="ActionBar.Solid.Invitine" parent="@style/Widget.AppCompat.ActionBar.Solid">
+        <item name="android:background">@drawable/ab_solid_invitine</item>
+        <item name="android:backgroundStacked">@drawable/ab_stacked_solid_invitine</item>
+        <item name="android:backgroundSplit">@drawable/ab_bottom_solid_invitine</item>
+        <item name="android:progressBarStyle">@style/ProgressBar.Invitine</item>
+    </style>
+
+    <style name="ActionBar.Transparent.Invitine" parent="@style/Widget.AppCompat.ActionBar">
+        <item name="android:background">@drawable/ab_transparent_invitine</item>
+        <item name="android:progressBarStyle">@style/ProgressBar.Invitine</item>
+    </style>
+    
+    <!-- this style is only referenced in a Light.DarkActionBar based theme -->
+    <style name="Theme.Invitine.Widget" parent="@style/Theme.AppCompat">
+        <item name="android:popupMenuStyle">@style/PopupMenu.Invitine</item>
+        <item name="android:dropDownListViewStyle">@style/DropDownListView.Invitine</item>
+    </style>
+
+</resources>

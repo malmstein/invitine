@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <color name="invitine_color">#cc0000</color>
+
     <color name="accent">#ff009fd6</color>
     <color name="accent2">#ff509b35</color>
 

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Generated with http://android-holo-colors.com -->
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="Theme.Invitine" parent="@style/Theme.AppCompat">
+
+        <item name="android:popupMenuStyle">@style/PopupMenu.Invitine</item>
+        <item name="android:dropDownListViewStyle">@style/DropDownListView.Invitine</item>
+        <item name="android:actionBarTabStyle">@style/ActionBarTabStyle.Invitine</item>
+        <item name="android:actionDropDownStyle">@style/DropDownNav.Invitine</item>
+        <item name="android:actionBarStyle">@style/ActionBar.Solid.Invitine</item>
+        <item name="android:actionModeBackground">@drawable/cab_background_top_invitine</item>
+        <item name="android:actionModeCloseButtonStyle">@style/ActionButton.CloseMode.Invitine
+        </item>
+
+        <item name="actionBarItemBackground">@drawable/selectable_background_invitine</item>
+        <item name="popupMenuStyle">@style/PopupMenu.Invitine</item>
+        <item name="dropDownListViewStyle">@style/DropDownListView.Invitine</item>
+        <item name="actionBarTabStyle">@style/ActionBarTabStyle.Invitine</item>
+        <item name="actionDropDownStyle">@style/DropDownNav.Invitine</item>
+        <item name="actionBarStyle">@style/ActionBar.Solid.Invitine</item>
+        <item name="actionModeBackground">@drawable/cab_background_top_invitine</item>
+        <item name="actionModeSplitBackground">@drawable/cab_background_bottom_invitine</item>
+        <item name="actionModeCloseButtonStyle">@style/ActionButton.CloseMode.Invitine</item>
+
+        <item name="android:editTextBackground">@drawable/invitine_edit_text_holo_dark</item>
+
+        <item name="android:textColorHighlight">#99cc0000</item>
+        <item name="android:textSelectHandleLeft">@drawable/invitine_text_select_handle_left</item>
+        <item name="android:textSelectHandleRight">@drawable/invitine_text_select_handle_right
+        </item>
+        <item name="android:textSelectHandle">@drawable/invitine_text_select_handle_middle</item>
+
+        <item name="android:buttonStyle">@style/Buttoninvitine</item>
+        <item name="android:imageButtonStyle">@style/ImageButtoninvitine</item>
+        <item name="android:dropDownSpinnerStyle">@style/Spinnerinvitine</item>
+        <item name="android:buttonStyleToggle">@style/Toggleinvitine</item>
+
+        <item name="android:listChoiceBackgroundIndicator">
+            @drawable/invitine_list_selector_holo_dark
+        </item>
+
+        <item name="android:activatedBackgroundIndicator">
+            @drawable/invitine_activated_background_holo_dark
+        </item>
+
+        <item name="android:fastScrollThumbDrawable">@drawable/invitine_fastscroll_thumb_holo</item>
+
+    </style>
+
+    <style name="Buttoninvitine" parent="android:Widget.Holo.Button">
+        <item name="android:background">@drawable/invitine_btn_default_holo_dark</item>
+    </style>
+
+    <style name="ImageButtoninvitine" parent="android:Widget.Holo.ImageButton">
+        <item name="android:background">@drawable/invitine_btn_default_holo_dark</item>
+    </style>
+
+    <style name="Spinnerinvitine" parent="android:Widget.Holo.Spinner">
+        <item name="android:background">@drawable/invitine_spinner_background_holo_dark</item>
+        <item name="android:dropDownSelector">@drawable/invitine_list_selector_holo_dark</item>
+    </style>
+
+    <style name="Toggleinvitine" parent="android:Widget.Holo.Button.Toggle">
+        <item name="android:background">@drawable/invitine_btn_toggle_holo_dark</item>
+    </style>
+
+</resources>
