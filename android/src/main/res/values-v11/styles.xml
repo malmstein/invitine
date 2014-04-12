@@ -5,6 +5,8 @@
 
     <style name="Theme.Invitine" parent="@style/Theme.AppCompat">
 
+        <item name="android:windowActionBarOverlay">true</item>
+
         <item name="android:popupMenuStyle">@style/PopupMenu.Invitine</item>
         <item name="android:dropDownListViewStyle">@style/DropDownListView.Invitine</item>
         <item name="android:actionBarTabStyle">@style/ActionBarTabStyle.Invitine</item>
