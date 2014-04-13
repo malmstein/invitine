@@ -9,7 +9,8 @@
     <color name="ca">#ff009fd6</color>
     <color name="ut">#ffbd3434</color>
 
-    <color name="sliding_panel_bg">#81000000</color>
+    <color name="sliding_panel_bg">#00ffffff</color>
+    <color name="player_pieces_bg">#81000000</color>
 
     <!-- BRANDING.FONTS -->
     <color name="font_black">#000000</color>

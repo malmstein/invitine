@@ -13,4 +13,7 @@
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="action_example">Example action</string>
 
+    <string name="intro_text">This will be an amazing intro text</string>
+    <string name="intro_button">Show me the rest!</string>
+
 </resources>

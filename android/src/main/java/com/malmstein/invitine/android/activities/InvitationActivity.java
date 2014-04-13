@@ -28,13 +28,17 @@ public class InvitationActivity extends FragmentActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
+        getActionBar().setDisplayShowTitleEnabled(false);
+        getActionBar().setDisplayUseLogoEnabled(false);
+        getActionBar().setDisplayShowHomeEnabled(false);
+
         setContentView(R.layout.activity_invitine);
 
         final SlidingUpPanelLayout layout = (SlidingUpPanelLayout) findViewById(R.id.sliding_layout);
         layout.setPanelSlideListener(new SlidingUpPanelLayout.PanelSlideListener() {
             @Override
             public void onPanelSlide(View panel, float slideOffset) {
-                setActionBarTranslation(layout.getCurrentParalaxOffset());
+//                setActionBarTranslation(layout.getCurrentParalaxOffset());
             }
 
             @Override

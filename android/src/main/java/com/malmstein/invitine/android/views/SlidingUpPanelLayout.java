@@ -83,7 +83,7 @@ public class SlidingUpPanelLayout extends ViewGroup {
     /**
      * Drawable used to draw the shadow between panes.
      */
-    private final Drawable mShadowDrawable;
+    private  Drawable mShadowDrawable;
 
     /**
      * The size of the overhang in pixels.
@@ -307,9 +307,9 @@ public class SlidingUpPanelLayout extends ViewGroup {
         // If the shadow height is zero, don't show the shadow
         if (mShadowHeight > 0) {
             if (mIsSlidingUp) {
-                mShadowDrawable = getResources().getDrawable(R.drawable.above_shadow);
+//                mShadowDrawable = getResources().getDrawable(R.drawable.above_shadow);
             } else {
-                mShadowDrawable = getResources().getDrawable(R.drawable.below_shadow);
+//                mShadowDrawable = getResources().getDrawable(R.drawable.below_shadow);
             }
 
         } else {
@@ -508,11 +508,12 @@ public class SlidingUpPanelLayout extends ViewGroup {
     }
 
     private static boolean hasOpaqueBackground(View v) {
-        final Drawable bg = v.getBackground();
-        if (bg != null) {
-            return bg.getOpacity() == PixelFormat.OPAQUE;
-        }
-        return false;
+        return true;
+//        final Drawable bg = v.getBackground();
+//        if (bg != null) {
+//            return bg.getOpacity() == PixelFormat.OPAQUE;
+//        }
+//        return false;
     }
 
     @Override
